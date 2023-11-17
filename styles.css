@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: rgb(15, 15, 15)
+}
+h1,h2,label,th{
+    color: white;
+}
+h1{
+    padding: 0  0 0.5rem 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #5321a2;
+    color: white;
+}
+nav > *{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+}
+#bottomSection, #middleSection{
+    border-radius: 0.5rem;
+}
+#middleSection{
+    height: 20%;
+    width: 40%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem 0;
+    background: rgb(16,50,122);
+background: linear-gradient(180deg, rgba(16,50,122,1) 0%, rgba(179,0,255,1) 55%);
+}
+.delete{
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgba(255, 100, 100, 0.377);
+}
+#totalIncome{
+    color: rgb(10, 188, 4);
+    font-weight: bold;
+}
+#totalExpense{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.parent h2{
+    padding: 0.5rem 0.25rem;
+}
+.parent{
+    display: flex;
+}
+.totalExpense,.totalIncome{
+    width: 50%;
+    height: 100%;
+}
+.totalIncome{
+    border-right: 1px solid white;
+}
+#bottomSection{
+    width:65%;
+    margin: 2rem auto;
+    display: flex;
+    background: linear-gradient(193deg, rgba(16,50,122,1) 0%, rgba(131,58,180,1) 54%, rgba(179,0,255,1) 79%);
+}
+#bottomSection h2{
+    text-align: center;
+    padding:0.5rem 0;
+}
+#expenses{
+    width: 60%;
+    height: 100%;
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+#amountForm{
+    width: 40%;
+    height: 100%;
+    padding: 1rem 1rem 1rem 0;
+}
+nav > h1{
+    font-size: 1.5rem;
+
+}
+a{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+.tableRow{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+form{
+    padding-left: 0.5rem;
+    border-left: 1px solid white;
+}
+form div,button{
+    margin: 0.5rem 0 0 0;
+}
+th,td{
+    text-align: center;
+    padding: 0.25rem;
+    color: black;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.navItem{
+    cursor: pointer;
+}
+.navItem:hover{
+    color: rgb(10, 188, 4);
+}
+.headerTab{
+        border: 1px solid black;
+        background-color: rgb(10, 188, 4);
+}
+button{
+    padding: 0.1rem 0.2rem;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    margin: 0.1rem 0;
+    padding: 0.1rem;
+    border: 0;
+    font-weight:bold ;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.tab{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    #bottomSection{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    #expenses, #amountForm{
+        width: 100%;
+        border: 0;
+    }
+    form{
+        border:0;
+    }
+    a,h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 0.75rem;
+    }
+
+}
