@@ -1,5 +1,5 @@
-# Expense Tracker
-
+# Expense Tracker 
+[Click here to check the project](https://ppraneesh.github.io/expenseTracker/)
 ## Project Overview
 
 This project is an Expense Tracker, designed to help users manage and track their expenses and income. The application provides a user-friendly interface for adding new expenses, viewing a summary of total income, total expenses, and current balance. It also allows users to delete specific expenses from the list.
